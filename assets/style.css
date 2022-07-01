@@ -1,0 +1,17 @@
+.gameboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 300px;
+  width: 300px;
+}
+
+.gameboard-cell {
+  height: 98px;
+  width: 98px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+}
